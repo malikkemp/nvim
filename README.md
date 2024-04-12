@@ -1,8 +1,8 @@
 # NvimConfig
 
-### Current Plugins:
+## Current Plugins:
 
-##### **Lazy.vim**
+### **Lazy.vim**
 
 "Lazy.vim" is a Vim plugin that aims to simplify the process of loading and managing plugins in Vim. It provides a lazy-loading mechanism, meaning that plugins are loaded only when needed, reducing the startup time of Vim and improving performance.
 
@@ -14,7 +14,7 @@ You can find more information about lazy.vim and how to use it in the official d
 
 ---
 
-##### **Gruvbox**
+### **Gruvbox**
 
 The Gruvbox theme is a popular color scheme for Neovim (and Vim) that provides a visually appealing and well-balanced color palette. It's known for its retro-inspired aesthetics, warm tones, and high contrast, making it comfortable for extended coding sessions. Here's an overview of the main features of the Gruvbox theme in Neovim:
 
@@ -48,7 +48,7 @@ After configuring the theme, restart Neovim or source your configuration file to
 
 ---
 
-##### **Planetary**
+### **Planetary**
 
 Planetary is a Neovim plugin developed by Drew DeVault. It provides a set of default key mappings and settings for Neovim that aim to improve the overall editing experience and productivity. The goal of Planetary is to offer a curated set of configurations that enhance Neovim's capabilities while maintaining simplicity and consistency.
 
@@ -66,7 +66,7 @@ Overall, Planetary is intended to be a starting point for users who want to enha
 
 ---
 
-##### **Telescope**
+### **Telescope**
 
 Telescope is a powerful fuzzy finder and file picker plugin for Neovim, developed by The Primeagen (Timothy L. Pope). It provides a fast and efficient way to search, navigate, and interact with files, buffers, git files, and more within Neovim. Telescope leverages the power of Lua and Neovim's built-in features to offer a flexible and customizable interface for performing various tasks.
 
