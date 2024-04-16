@@ -2,6 +2,8 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
+vim.g.mapleader = " "
+
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
   vim.fn.system({
@@ -28,6 +30,7 @@ require("lazy").setup(plugins, opts)
 
 local builtin = require("telescope.builtin")
 vim.keymap.set('n', '<C-p>', builtin.find_files, {})
+vim.keymap.set('n','<leader>g', builtin.live_grep, {})
 
 -- Default options for gruvbox plugin:
 require("gruvbox").setup({
@@ -53,6 +56,6 @@ require("gruvbox").setup({
   overrides = {},
   dim_inactive = false,
   transparent_mode = false,
-})
-vim.o.background = "dark" -- "dark" or "light" for light mode
+  })
+vim.o.background = "dark" -- "dark or light
 vim.cmd("colorscheme gruvbox")
