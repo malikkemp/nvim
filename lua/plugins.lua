@@ -32,10 +32,12 @@ local plugins = {
 local opts = {}
 require("lazy").setup(plugins, opts)
 
+-- Keymappings
 local builtin = require("telescope.builtin")
-vim.keymap.set('n', '<C-p>', builtin.find_files, {})
-vim.keymap.set('n', '<leader>g', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>gr', builtin.live_grep, {})
 
+-- Treesitter configuration
 local config = require("nvim-treesitter.configs")
 config.setup({
   ensure_installed = {"lua", "javascript", "python", "c", "vim"},
