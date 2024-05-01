@@ -1,4 +1,4 @@
-# NvimConfig
+# Neovim Configuration
 
 ## Current Plugins:
 
